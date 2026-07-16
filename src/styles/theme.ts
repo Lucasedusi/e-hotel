@@ -1,0 +1,48 @@
+export const theme = {
+  colors: {
+    primary: "#434ce4",
+    primaryDark: "#1554D1",
+    primarySoft: "#EEF5FF",
+    blueDeep: "#0B2D66",
+    background: "#F4F7FB",
+    surface: "#FFFFFF",
+    surfaceSoft: "#F8FAFE",
+    text: "#111827",
+    textSoft: "#4B5563",
+    muted: "#8A94A6",
+    border: "#EAF0F7",
+    borderStrong: "#DDE6F2",
+    success: "#10B981",
+    successSoft: "#E8FFF4",
+    danger: "#EF4444",
+    dangerSoft: "#FFF2F2",
+    warning: "#F59E0B",
+    warningSoft: "#FFF7DF",
+    info: "#0EA5E9",
+    infoSoft: "#EAF8FF",
+    purple: "#6C5FFC",
+    purpleSoft: "#F0EDFF",
+  },
+  radius: {
+    xs: "8px",
+    sm: "10px",
+    md: "12px",
+    lg: "12px",
+    xl: "12px",
+    full: "12px",
+  },
+  shadow: {
+    card: "0 18px 50px rgba(15, 23, 42, 0.065)",
+    hover: "0 24px 70px rgba(15, 23, 42, 0.10)",
+    sidebar: "0 30px 80px rgba(36, 107, 254, 0.25)",
+  },
+  layout: {
+    sidebarExpanded: "286px",
+    sidebarCollapsed: "88px",
+    sidebarGap: "24px",
+    headerHeight: "82px",
+    contentMaxWidth: "1440px",
+  },
+};
+
+export type AppTheme = typeof theme;
