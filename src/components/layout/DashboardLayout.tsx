@@ -252,7 +252,13 @@ const Sidebar = styled.aside<{ $collapsed: boolean; $mobileOpen: boolean }>`
     $collapsed ? theme.layout.sidebarCollapsed : theme.layout.sidebarExpanded};
   padding: 22px 16px;
   border-radius: ${({ theme }) => theme.radius.md};
-  background: linear-gradient(180deg, #3c7df5 0%, #286cf0 48%, #1d5fdc 100%);
+  background:
+    radial-gradient(
+      circle at 110% 0%,
+      rgba(255, 255, 255, 0.17),
+      transparent 34%
+    ),
+    linear-gradient(160deg, #434ce4, #434ce4 55%, #434ce4);
   color: #fff;
   box-shadow: ${({ theme }) => theme.shadow.sidebar};
   transition:

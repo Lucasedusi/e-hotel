@@ -457,7 +457,8 @@ const SubmitButton = styled.button`
   transition: 180ms ease;
 
   &:hover:not(:disabled) {
-    background: ${({ theme }) => theme.colors.primaryDark};
+    background: ${({ theme }) => theme.colors.primary};
+    opacity: 0.94;
     transform: translateY(-1px);
   }
 

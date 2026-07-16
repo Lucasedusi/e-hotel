@@ -271,7 +271,13 @@ const HeroPanel = styled.div`
   min-height: 240px;
   padding: 22px;
   border-radius: ${({ theme }) => theme.radius.md};
-  background: linear-gradient(160deg, #246bfe, #0b2d66);
+  background:
+    radial-gradient(
+      circle at 110% 0%,
+      rgba(255, 255, 255, 0.17),
+      transparent 34%
+    ),
+    linear-gradient(160deg, #434ce4, #434ce4 55%, #434ce4);
   color: #fff;
   overflow: hidden;
   position: relative;
