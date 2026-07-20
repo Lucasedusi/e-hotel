@@ -5,6 +5,8 @@ import {
   requireAuthenticatedProfile,
 } from "@/lib/auth/access";
 
+export const dynamic = "force-dynamic";
+
 export default async function OnboardingPage() {
   const profile = await requireAuthenticatedProfile();
 
